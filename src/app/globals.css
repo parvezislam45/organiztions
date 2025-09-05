@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background-color: white !important;
+  color: var(--foreground);
+  
+}
+.nav{
+  font-family: "Libre Baskerville", serif;
+}
+.head{
+  font-family: "Allura", serif;
+}
+.menu{
+  font-family: "Questrial", serif;
+}
+.seaHeading{
+  font-family: "Arizonia", serif;
+}
+.sea{
+  font-family: "Monsieur La Doulaise", serif;
+}
+.paragraph{
+  font-family: "Style Script", serif;
+}
+
+.about{
+  font-family: "EB Garamond", serif;
+}
